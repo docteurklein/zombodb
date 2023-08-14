@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     naersk.url = "github:nmattia/naersk";
     naersk.inputs.nixpkgs.follows = "nixpkgs";
-    pgrx.url = "github:zombodb/pgrx/new-sql-type-mapping";
+    pgrx.url = "github:pgcentralfoundation/pgrx";
     pgrx.inputs.nixpkgs.follows = "nixpkgs";
     pgrx.inputs.naersk.follows = "naersk";
   };
